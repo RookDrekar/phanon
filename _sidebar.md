@@ -1,0 +1,5 @@
+- [Home](/)
+- Lore
+  - [Timeline](/pages/lore/timeline)
+- [Maps](/maps/map)
+- [About](/about)
