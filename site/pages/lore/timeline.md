@@ -1,6 +1,6 @@
 # OFFICIAL TIMLINE OF ENKON
 
->The nearly comprehensive history of ENKON. Please add and enjoy!
+>The nearly comprehensive history of Enkon. Please add and enjoy!
 
 ## Ancient Era
 - **-500,000 AI:** The Doec establish gates across the Abraxi Cluster, including the Enkon system. They flourish, then vanish, leaving NEXUS and other relics.
