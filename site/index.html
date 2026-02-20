@@ -33,16 +33,10 @@
 
       // Sidebar
       loadSidebar: true,            // loads _sidebar.md
-
-      // Optional useful settings
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'   // useful in subfolders
-      },
-
-      // If you want a custom cover page filename (not the default _coverpage.md)
-      // coverpage: 'cover.md',
-
-      // themeColor: '#yourcolor',  // if not using themeable
+      subMaxLevel: 3,              // sidebar sub-heading max level
+          alias: {
+      '/.*/_sidebar.md': '/_sidebar.md'   // prevents 404s when in sub-paths like /#/pages/Guides/...
+    }
     };
   </script>
 
