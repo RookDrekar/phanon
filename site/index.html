@@ -15,19 +15,23 @@
     :root {
       --theme-hue: 325;
     }
-    .ticker-bar {
-  position: fixed;
+  .ticker-bar {
+  position: fixed;              /* or sticky if preferred */
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9999;           /* stays on top */
-  background: linear-gradient(90deg, #1a0033, #330066, #6600cc);  /* dark purple vibe matching your --theme-hue: 325 */
+  z-index: 9999;
+  background: hsl(var(--theme-hue), 80%, 20%);
   color: #fff;
   font-weight: bold;
   overflow: hidden;
-  height: 2.5rem;          /* adjust height */
+  height: 2.5rem;
   line-height: 2.5rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+body {
+  padding-top: 2.5rem;          /* ← this prevents overlap */
 }
 
 .ticker-wrap {
