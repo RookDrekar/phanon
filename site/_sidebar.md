@@ -2,6 +2,8 @@
 
 - **Guides**
   - [Getting Started](pages/guides/getting-started.md)
+  - [Code of Conduct](pages/guides/code-of-conduct.md)
+  - [Roleplay Guide](pages/guides/roleplaying/roleplay-guide.md)
 
 
 - **Lore**

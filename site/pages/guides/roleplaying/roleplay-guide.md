@@ -7,17 +7,17 @@ This is a Post-Modern Tech to Near-Future Tech roleplay. We aren't fighting drag
 ## Joining the NCON Roleplay
 To formally join the NCON roleplay, you are required to follow a few steps.
 
-1. Read our [Code of Conduct](/pages/guides/code-of-conduct.md). You *must* adhere to our rules before joining.
+1. Read our [Code of Conduct](pages/guides/code-of-conduct.md). You *must* adhere to our rules before joining.
 
 2. Talk with our existing membership. Workshop your ideas with them. We all know a thing or two and are happy to offer help where we can.
 
-3. Choose an Orgin Story for your nation. Origin Stories help establish your nation within our collective lore and help get you up and running ASAP. Origin options can be found [here](/pages/guides/roleplaying/origins.md).
+3. Choose an Orgin Story for your nation. Origin Stories help establish your nation within our collective lore and help get you up and running ASAP. Origin options can be found [here](pages/guides/roleplaying/origins.md).
 
 4. Post your initial roleplays. We require two distinct roleplays to accept you into our lore. An *Introductory* and *Event* Roleplay.
     - **Introductory:** This roleplay gives us an idea of what your nation is all about. Present your nation's culture, government, and lore to all of us.
     - **Event:** Something that happens in your nation. Newly elected leadership? A grand fesitival? Maybe a brewing conflict? Invite us to take an interest in your nation.
 
-5. Once the community accepts your nation, you can consider yourself one of us. From here, you may make a [map claim](/pages/guides/roleplaying/map-claims.md) and get yourself on our world class map. 
+5. Once the community accepts your nation, you can consider yourself one of us. From here, you may make a [map claim](pages/guides/roleplaying/map-claims.md) and get yourself on our world class map. 
 
 6. Keep writing! Seriously, keep it up! Develop your lore, ask if anyone want's to join you on a project or see what others are up to and ask if you can join. We are a very welcoming community and collaboration is our bread and butter.
 
