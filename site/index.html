@@ -15,9 +15,77 @@
     :root {
       --theme-hue: 325;
     }
+    .ticker-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;           /* stays on top */
+  background: linear-gradient(90deg, #1a0033, #330066, #6600cc);  /* dark purple vibe matching your --theme-hue: 325 */
+  color: #fff;
+  font-weight: bold;
+  overflow: hidden;
+  height: 2.5rem;          /* adjust height */
+  line-height: 2.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker-scroll 60s linear infinite;  /* 60s = speed; slower = longer read time */
+  padding-right: 100%;  /* extra space for seamless loop */
+}
+
+.ticker span {
+  display: inline-block;
+  padding: 0 2rem;      /* spacing between "news items" */
+}
+
+/* The magic animation */
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Pause on hover (optional – nice UX) */
+.ticker-bar:hover .ticker {
+  animation-play-state: paused;
+}
+
+/* Make it responsive – smaller on mobile */
+@media (max-width: 768px) {
+  .ticker-bar {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.9rem;
+  }
+  .ticker span {
+    padding: 0 1.5rem;
+  }
+}
   </style>
 </head>
 <body>
+  <!-- Ticker Bar – place this right after <body> or before <div id="app"> -->
+<div class="ticker-bar">
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <!-- Duplicate the content so it loops seamlessly -->
+      <span>🚀 Phanon Testnet launching Q1 2026 • NEXUS agents now support zk-attestations • Join Discord for early access • Whitepaper v0.9 dropped yesterday • Follow @RookDrekar for updates • Phanon tokens bridging to Solana soon • </span>
+      <span>🚀 Phanon Testnet launching Q1 2026 • NEXUS agents now support zk-attestations • Join Discord for early access • Whitepaper v0.9 dropped yesterday • Follow @RookDrekar for updates • Phanon tokens bridging to Solana soon • </span>
+    </div>
+  </div>
+</div>
   <div id="app"></div>
 
   <!-- Docsify config — put this BEFORE loading docsify.min.js -->
