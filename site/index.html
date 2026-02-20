@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-   <meta name="description" content="Phanon and NEXUS' official documentation.">
-   <title>Phanon</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <meta name="description" content="Phanon and NEXUS' official documentation.">
+  <title>Phanon</title>
 
-<!-- Theme: Simple Dark -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <!-- Theme: Simple Dark -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 
-
-   <!-- Custom Styles -->
-   <style>
-     :root {
-       --theme-hue: 325;
-     }
-   </style>
+  <!-- Custom hue -->
+  <style>
+    :root {
+      --theme-hue: 325;
+    }
+  </style>
 </head>
 <body>
-   <div id="app"></div>
+  <div id="app"></div>
 
-   <script>
-     // Docsify Configuration
-     window.$docsify = {
-       // ..
-     };
-   </script>
+  <!-- Docsify config — put this BEFORE loading docsify.min.js -->
+  <script>
+    window.$docsify = {
+      // Basic identity
+      name: 'Phanon',
+      repo: '',                     // ← add if you have GitHub repo: 'username/repo'
 
-   <!-- Required -->
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+      // Files you want to use
+      homepage: 'README.md',        // main content (default anyway, but good to be explicit)
+      coverpage: true,              // loads _coverpage.md (or coverpage.md) automatically
 
-   <!-- Recommended -->
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+      // Sidebar
+      loadSidebar: true,            // loads _sidebar.md
 
-<script>
-  window.$docsify = {
-    loadSidebar: true,
-    alias: {
-      '/.*/_sidebar.md': '/_sidebar.md'
-    }
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+      // Optional useful settings
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'   // useful in subfolders
+      },
 
-<script>
-  window.$docsify = {
-    coverpage: true
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+      // If you want a custom cover page filename (not the default _coverpage.md)
+      // coverpage: 'cover.md',
+
+      // themeColor: '#yourcolor',  // if not using themeable
+    };
+  </script>
+
+  <!-- Required Docsify files – load only once! -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+  <!-- Recommended plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>
